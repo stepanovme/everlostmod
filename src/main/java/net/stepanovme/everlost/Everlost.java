@@ -24,7 +24,6 @@ public class Everlost
     public static final String Mod_ID = "everlost";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-
     public Everlost()
     {
         // Register the setup method for modloading
