@@ -1,3 +1,5 @@
 {
-  "item.everlost.fairydust": "Fairy dust"
+  "item.everlost.fairydust": "Fairy dust",
+
+  "itemGroup.everlostitemtab": "Everlost items"
 }
