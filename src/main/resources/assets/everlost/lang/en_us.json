@@ -1,5 +1,12 @@
 {
   "item.everlost.fairydust": "Fairy dust",
 
+  "block.everlost.angular_base_of_aragis_right": "Right angular base of Aragis",
+  "block.everlost.angular_base_of_aragis_left": "Left angular base of Aragis",
+  "block.everlost.angular_base_of_aragis_bottom_left": "Left bottom angular base of Aragis",
+  "block.everlost.angular_base_of_aragis_bottom_right": "Right bottom angular base of Aragis",
+  "block.everlost.angular_base_of_aragis_bottom_column": "Angular base of Aragis",
+  "block.everlost.angular_base_of_aragis_bottom_row": "Vertical angular base of Aragis",
+
   "itemGroup.everlostitemtab": "Everlost items"
 }

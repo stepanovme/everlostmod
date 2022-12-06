@@ -1,5 +1,13 @@
 {
   "item.everlost.fairydust": "Волшебная пыль",
 
+  "block.everlost.angular_base_of_aragis_right": "Правое угловое основание Арагис",
+  "block.everlost.angular_base_of_aragis_left": "Левое угловое основание Арагис",
+  "block.everlost.angular_base_of_aragis_bottom_right": "Нижнее правое угловое основание Арагис",
+  "block.everlost.angular_base_of_aragis_bottom_left": "Нижнее левое угловое основание Арагис",
+  "block.everlost.angular_base_of_aragis_bottom_column": "Основание Арагис",
+  "block.everlost.angular_base_of_aragis_bottom_row": "Вертикальное основание Арагис",
+
+
   "itemGroup.everlostitemtab": "Everlost предметы"
 }

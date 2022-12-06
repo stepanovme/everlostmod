@@ -14,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.stepanovme.everlost.block.ModBlocks;
 import net.stepanovme.everlost.item.ModItem;
 import org.slf4j.Logger;
 
@@ -29,8 +30,12 @@ public class Everlost
     public Everlost()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ModItem.register(eventBus);
+        ModBlocks.register(eventBus);
+
         eventBus.addListener(this::setup);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "everlost:block/angular_base_of_aragis_column"
+  }
+}
