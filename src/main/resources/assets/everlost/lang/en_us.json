@@ -8,5 +8,7 @@
   "block.everlost.angular_base_of_aragis_bottom_column": "Angular base of Aragis",
   "block.everlost.angular_base_of_aragis_bottom_row": "Vertical angular base of Aragis",
 
-  "itemGroup.everlostitemtab": "Everlost items"
+  "itemGroup.everlostitemtab": "Everlost items",
+  "itemGroup.everlostblockstab": "Everlost blocks"
+
 }
