@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "everlost:block/angular_base_of_aragis_bottom_left"}
+    "facing=north": { "model": "everlost:block/angular_base_of_aragis_bottom_left"},
+    "facing=east": { "model": "everlost:block/angular_base_of_aragis_bottom_left", "y": 90},
+    "facing=south": { "model": "everlost:block/angular_base_of_aragis_bottom_left", "y": 180},
+    "facing=west": { "model": "everlost:block/angular_base_of_aragis_bottom_left", "y": 270}
   }
 }

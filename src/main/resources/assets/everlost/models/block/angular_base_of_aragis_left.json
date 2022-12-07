@@ -1,6 +1,32 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "everlost:block/angular_base_of_aragis_left"
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "everlost:block/angular_base_of_aragis_bottom_left",
+		"2": "everlost:test_textures",
+		"3": "everlost:block/angular_base_of_aragis_column",
+		"particle": "everlost:block/angular_base_of_aragis_bottom_left"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	],
+	"display": {},
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
 }

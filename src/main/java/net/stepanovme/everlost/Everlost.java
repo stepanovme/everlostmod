@@ -1,6 +1,8 @@
 package net.stepanovme.everlost;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,6 +40,11 @@ public class Everlost
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+    }
+
+    private void clientSetup(final FMLCommonSetupEvent event)
+    {
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ANGULAR_BASE_OF_ARAGIS_LEFT.get(), RenderType.solid());
     }
 
     private void setup(final FMLCommonSetupEvent event)

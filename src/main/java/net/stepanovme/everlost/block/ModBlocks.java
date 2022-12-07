@@ -6,12 +6,12 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.stepanovme.everlost.Everlost;
+import net.stepanovme.everlost.block.custom.AngularBaseOfAragisBottomLeftStationBlock;
 import net.stepanovme.everlost.item.ModCreativeModTab;
 import net.stepanovme.everlost.item.ModItem;
 
@@ -24,7 +24,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> ANGULAR_BASE_OF_ARAGIS_RIGHT = registerBlock("angular_base_of_aragis_right",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), ModCreativeModTab.EVERLOST_BLOCKS_TAB);
     public static final RegistryObject<Block> ANGULAR_BASE_OF_ARAGIS_LEFT = registerBlock("angular_base_of_aragis_left",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), ModCreativeModTab.EVERLOST_BLOCKS_TAB);
+            () -> new AngularBaseOfAragisBottomLeftStationBlock(BlockBehaviour.Properties.of(Material.STONE).noOcclusion().strength(5f).requiresCorrectToolForDrops()), ModCreativeModTab.EVERLOST_BLOCKS_TAB);
     public static final RegistryObject<Block> ANGULAR_BASE_OF_ARAGIS_BOTTOM_RIGHT = registerBlock("angular_base_of_aragis_bottom_right",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), ModCreativeModTab.EVERLOST_BLOCKS_TAB);
     public static final RegistryObject<Block> ANGULAR_BASE_OF_ARAGIS_BOTTOM_LEFT = registerBlock("angular_base_of_aragis_bottom_left",
